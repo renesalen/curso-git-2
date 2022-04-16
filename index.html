@@ -18,6 +18,8 @@
     <p>Para hacer el seguimiento debemos pasar esos archivos al Area Temporal con: 'git add nombreArchivo'</p>
     <p>Una vez añadido el index.html en el area temporal en la lista del archivo aparece como con una A (añadido al area temporal)</p>
     <p>Agregamos alguna informacion mas al index.html, actualizamos y vemos su estado con: 'git status' index.html aparece como Modified. En la lista tiene una M (modificado)</p>
+    <p>Cuando hay una modificacion de una archivo en el area temporal o en el Repositorio el archivo vuelve  al inicio (working Directory) y se les devuelve al area temporal con: 'git add nombreArchivo' y luego se hace otro commit</p>
+    <p>El commit agrega todo el o los archivos en area temporal al Repositorio</p>
     <p>Pero este index.html modificado puede ya ser enviado a Repositorio con: 'git commit -m "nombreDelCommit'</p>
     <p>Los otros archivos aún en Working directory pueden ser enviados al Area Temporal de una sola, en grupo con: 'git add .'</p>
     <p>Podemos enviar un archivo , en este caso tutgit.css al Repositorio con: 'git commit -m "nombreCommit"' </p>
