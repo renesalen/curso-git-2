@@ -12,7 +12,16 @@
     <p>Para comenzar  git se debe abrir terminal</p>
     <p>Se abre un texto y saber la version que git que tenemos debemos escribir: 'git version'</p>
     <img src="images/fllujoTrabajoGit.png" alt="">
-    <p>Para empezar el proyecto</p>
+    <p>Para empezar el (proyecto) "Repositorio" se hace con 'git init' y relaciona o vincula todos los archivos en un solo cuerpo integro. La ista de archivo se pinta de verde seguidad de una U (U = archivo no tiene seguimiento)</p>
+    <p>Para saber que archivos no tienen seguimiento utilizamos: 'git status -s'. Todos los que tienen ?? no tienen seguimiento.</p>
+    <p>Esos archivos están en el 'Directorio de Trabajo' (working directory), sin embargo listos a pasar al Area Temporal (staging Area)</p>
+    <p>Para hacer el seguimiento debemos pasar esos archivos al Area Temporal con: 'git add nombreArchivo'</p>
+    <p>Una vez añadido el index.html en el area temporal en la lista del archivo aparece como con una A (añadido al area temporal)</p>
+    <p>Agregamos alguna informacion mas al index.html, actualizamos y vemos su estado con: 'git status' index.html aparece como Modified. En la lista tiene una M (modificado)</p>
+    <p>Pero este index.html modificado puede ya ser enviado a Repositorio con: 'git commit -m "nombreDelCommit'</p>
+    <p>Los otros archivos aún en Working directory pueden ser enviados al Area Temporal de una sola, en grupo con: 'git add .'</p>
+    <p>Podemos enviar un archivo , en este caso tutgit.css al Repositorio con: 'git commit -m "nombreCommit"' </p>
+
     <script src="tutgit.js"></script>
 </body>
 </html>
